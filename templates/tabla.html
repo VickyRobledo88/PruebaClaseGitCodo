@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Palabras clave-->
+    <meta name="keywords" content="HTML,Multimedia, audio, video, curso, mapa">
+    <!--Descripción general-->
+    <meta name="description" content="Incorporación de audio, video, mapa en un archivo HTML">
+<body>
+    
+    <!-- Encabezado -->
+    <header>
+        <nav>
+            <a href="../index.html">Inicio</a>
+            <a href="listas.html">Listas</a>
+            <a href="tabla.html">Tabla</a>
+            <a href="galeria.html">Galeria</a>
+            <a href="http://www.google.com" target="_blank">Google</a>
+        </nav>
+    </header>
+
+    <!-- Contenido -->
+    <main>
+        <h1>Tabla</h1>
+
+        <section>
+            <h2>Audio y Video</h2>
+            <div>
+                <!--Audio-->
+                <audio src="../audio/typical-trap-loop-2b-130751.mp3" controls autoplay width = "500 px" height="400 px"></audio>
+                
+            </div>
+            <div>
+                <!--Video-->
+                <video src="../video/mov_bbb.mp4" controls></video>
+            </div>
+        </section>
+        <section>
+            <div>
+                <h2>Mapa</h2>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d27178.106734604662!2d-60.71192825!3d-31.62663935!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95b5a9bfb1a9d6a9%3A0x6f74c9b8ca9c25e4!2sEl%20Molino%20F%C3%A1brica%20Cultural!5e0!3m2!1ses!2sar!4v1710597130865!5m2!1ses!2sar" width="600" height="450" style="border:0;border-radius: 2%;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+            <div>
+                <h2>Video Youtube</h2>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/ncSvO22_g8E?si=nbjbXhSDyIxpKsfh" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            </div>
+        </section>
+        <section>
+            <h4>Tabla sencilla</h4>
+            <table border="1">
+                <tr>
+                    <th>Encabezado 1</th>
+                    <th>Encabezado 2</th>
+                    <th>Encabezado 3</th>
+                </tr>
+                <tr>
+                    <td>Dato 1</td>
+                    <td>Dato 2</td>
+                    <td>Dato 3</td>
+                </tr>
+                <tr>
+                    <td>Dato 4</td>
+                    <td>Dato 5</td>
+                    <td>Dato 6</td>
+                </tr>
+            </table>
+        </section>
+        <section>
+            <!--rowspan y colspan-->
+            <br>
+            <h4>Rowspan y colspan</h4>
+            <table border="1">
+                <tr>
+                    <th>Producto</th>
+                    <th>Descripción</th>
+                    <th colspan="2">Variantes</th>
+                </tr>
+                <tr>
+                    <td rowspan="2">Camiseta</td>
+                    <td rowspan="2">Camiseta de algodón</td>
+                    <td>Color</td>
+                    <td>Talla</td>
+                </tr>
+                <tr>
+                    <td>Rojo</td>
+                    <td>S</td>
+                </tr>
+                <tr>
+                    <td rowspan="3">Zapatos</td>
+                    <td rowspan="3">Zapatos deportivos</td>
+                    <td>Color</td>
+                    <td>Talla</td>
+                </tr>
+                <tr>
+                    <td>Azul</td>
+                    <td>40</td>
+                </tr>
+                <tr>
+                    <td>Blanco</td>
+                    <td>42</td>
+                </tr>
+            </table>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer></footer>
+
+</body>
+</html>
